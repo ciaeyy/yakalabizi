@@ -11,4 +11,4 @@ $AppSwitchedPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Fea
 Get-ItemProperty -Path $AppSwitchedPath |
     findstr /i /C:":\" |
     Sort-Object LastWriteTime |
-    Out-GridView -PassThru -Title 'Appswitch Script by Gothic Girl lover'
+    Out-GridView -PassThru -Title 'ayak yalayan 48'
